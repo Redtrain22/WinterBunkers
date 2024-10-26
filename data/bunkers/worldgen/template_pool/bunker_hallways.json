@@ -1,0 +1,105 @@
+{
+    "name": "northernblood_bunkers:bunker_hallways",
+    "fallback": "bunkers:bunker_hallway_ends",
+    "elements": [
+      {	
+        "weight": 25,
+        "element": {
+          "location": "bunkers:bunkerparts/hallways/hallway",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 25,
+        "element": {
+          "location": "bunkers:bunkerparts/hallways/hallway_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 25,
+        "element": {
+          "location": "bunkers:bunkerparts/hallways/hallway_corner",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 10,
+        "element": {
+          "location": "bunkers:bunkerparts/hallways/hallway_intersection",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 25,
+        "element": {
+          "location": "bunkers:bunkerparts/hallways/hallway_t",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 25,
+        "element": {
+          "location": "bunkers:bunkerparts/hallways/hallway_tsection",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "location": "bunkers:bunkerparts/hallways/stairs1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+    }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "location": "bunkers:bunkerparts/hallways/stairs2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {	
+      "weight": 10,
+      "element": {
+        "location": "bunkers:bunkerparts/hallways/big_corner",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {	
+    "weight": 10,
+    "element": {
+      "location": "bunkers:bunkerparts/hallways/water_tanks",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+  {	
+    "weight": 25,
+    "element": {
+      "location": "bunkers:bunkerparts/hallways/hallway_t2",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }
+    ]
+  }

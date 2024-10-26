@@ -1,0 +1,33 @@
+{
+    "name": "northernblood_bunkers:hallway_ends",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 50,
+        "element": {
+          "location": "bunkers:bunkerparts/hallway_end/hallway_end1",
+          "processors": "minecraft:empty",
+          "projection":  "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 50,
+        "element": {
+          "location": "bunkers:bunkerparts/hallway_end/hallway_end2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 50,
+        "element": {
+          "location": "bunkers:bunkerparts/hallway_end/hallway_end3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

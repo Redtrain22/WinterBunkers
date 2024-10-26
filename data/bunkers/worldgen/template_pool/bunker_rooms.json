@@ -1,0 +1,63 @@
+{
+    "name": "northernblood_bunkers:rooms",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 10,
+        "element": {
+          "location": "bunkers:bunkerparts/rooms/tableroom_end",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },{	
+        "weight": 10,
+        "element": {
+          "location": "bunkers:bunkerparts/rooms/sleeping_room",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },{	
+        "weight": 10,
+        "element": {
+          "location": "bunkers:bunkerparts/rooms/storage1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },{	
+        "weight": 10,
+        "element": {
+          "location": "bunkers:bunkerparts/rooms/storage2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },{	
+        "weight": 10,
+        "element": {
+          "location": "bunkers:bunkerparts/rooms/bathroom",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },{	
+        "weight": 10,
+        "element": {
+          "location": "bunkers:bunkerparts/rooms/fridge",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },{	
+        "weight": 10,
+        "element": {
+          "location": "bunkers:bunkerparts/rooms/radio_room",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
