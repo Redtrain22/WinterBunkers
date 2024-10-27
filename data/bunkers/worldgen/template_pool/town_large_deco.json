@@ -1,0 +1,23 @@
+{
+    "name": "northernblood_bunkers:large_deco",
+    "fallback": "bunkers:town_ends",
+    "elements": [
+      {	
+        "weight": 50,
+        "element": {
+          "location": "bunkers:townparts/large_decos/fountain",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },{	
+        "weight": 50,
+        "element": {
+          "location": "bunkers:townparts/large_decos/gazebo",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+}

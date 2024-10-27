@@ -1,0 +1,33 @@
+{
+    "name": "northernblood_bunkers:statues",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 20,
+        "element": {
+          "location": "bunkers:townparts/statues/statue_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 20,
+        "element": {
+          "location": "bunkers:townparts/statues/statue_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {	
+        "weight": 20,
+        "element": {
+          "location": "bunkers:townparts/statues/statue_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "northernblood_bunkers:tube",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 1,
+        "element": {
+          "location": "bunkers:townparts/town_center/center",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

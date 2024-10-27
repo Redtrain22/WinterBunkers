@@ -1,0 +1,23 @@
+{
+    "name": "northernblood_bunkers:small_deco",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {	
+        "weight": 20,
+        "element": {
+          "location": "bunkers:townparts/small_decos/wall_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },{	
+        "weight": 20,
+        "element": {
+          "location": "bunkers:townparts/small_decos/wall_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+}
