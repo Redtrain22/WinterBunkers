@@ -9,4 +9,5 @@ deployment:
     - /bin/cp pack.mcmeta $DEPLOY_PATH
     - /bin/cp -R data $DEPLOY_PATH
     - cd ~/repositories/WinterBunkers/
+    - pwd >> $DEPLOY_PATH/tmp.txt
     - /bin/zip $DEPLOY_PATH/WinterBunkers.zip -r WinterBunkers/ -x '*.git*' -x '*.cpanel.yml'"
