@@ -1,0 +1,9 @@
+# Ignore all zip files
+*.zip
+
+# Ignore all . files
+.*
+
+# Unignore cpanel deploy and git files
+!.cpanel.yml
+!.git*

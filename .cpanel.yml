@@ -1,0 +1,10 @@
+##### Custom Deploy Tasks for cpanel ######
+---
+deployment:
+  tasks:
+    - export DEPLOY_PATH=~/media.redtrain.me/uploads/WinterBunkers
+    - /bin/mkdir -p $DEPLOY_PATH
+    - /bin/rm -rf $DEPLOY_PATH/data # Remove mods directory so that removed mods don't maintain a toml file here
+    - /bin/cp pack.mcmeta $DEPLOY_PATH
+    - /bin/cp -R data $DEPLOY_PATH
+    - /bin/zip $DEPLOY_PATH/WinterBunkers.zip -r ~/repositories/WinterBunkers/ -x '*.git*' -x '*.cpanel.yml'
