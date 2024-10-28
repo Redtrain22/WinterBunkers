@@ -5,14 +5,14 @@
       "rolls": {
         "type": "minecraft:uniform",
         "min": 5,
-        "max": 14
+        "max": 12
       },
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:potato",
-          "weight": 50
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -33,7 +33,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:paper",
-          "weight": 50,
+          "weight": 25,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -49,7 +49,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stick",
-          "weight": 50
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -86,6 +86,36 @@
               "add": false
             }
           ]
+        }, {
+          "type": "minecraft:item",
+          "name": "supplementaries:rope",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "supplementaries:rope_arrow",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -107,6 +137,44 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
           "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 10
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },{
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 19,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
         }
       ]
     }
