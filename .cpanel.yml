@@ -8,6 +8,7 @@ deployment:
     - /bin/rm -f $DEPLOY_PATH/WinterBunkers.zip # Clean old zip
     - /bin/cp pack.mcmeta $DEPLOY_PATH
     - /bin/cp -R data $DEPLOY_PATH
+    - echo "test" >> $DEPLOY_PATH/tmp.txt
     - cd ~/repositories/WinterBunkers/
     - pwd >> $DEPLOY_PATH/tmp.txt
     - /bin/zip $DEPLOY_PATH/WinterBunkers.zip -r WinterBunkers/ -x '*.git*' -x '*.cpanel.yml'"
