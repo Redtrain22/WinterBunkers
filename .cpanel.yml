@@ -4,7 +4,8 @@ deployment:
   tasks:
     - export DEPLOY_PATH=~/media.redtrain.me/uploads/WinterBunkers
     - /bin/mkdir -p $DEPLOY_PATH
-    - /bin/rm -rf $DEPLOY_PATH/data # Remove mods directory so that removed mods don't maintain a toml file here
+    - /bin/rm -rf $DEPLOY_PATH/data # Remove directory to clean data
+    - /bin/rm -f $DEPLOY_PATH/WinterBunkers.zip # Clean old zip
     - /bin/cp pack.mcmeta $DEPLOY_PATH
     - /bin/cp -R data $DEPLOY_PATH
-    - /bin/zip $DEPLOY_PATH/WinterBunkers.zip -r ~/repositories/WinterBunkers/ -x '*.git*' -x '*.cpanel.yml'
+    - /usr/bin/bash -c "cd ~/repositories/WinterBunkers/ && /bin/zip $DEPLOY_PATH/WinterBunkers.zip -r WinterBunkers/ -x '*.git*' -x '*.cpanel.yml'"
